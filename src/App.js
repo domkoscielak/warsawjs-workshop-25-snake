@@ -23,6 +23,7 @@ class App extends Component {
 		this.state = {
             fruits: [],
             running: true,
+            over: false,
             snakeDirection: [0,-1],
             snakeGrowth: 0,
             score: 0,
@@ -173,7 +174,8 @@ class App extends Component {
         //check for self collisions
         if(this.selfCollision()){
             this.setState({
-                running: false
+                running: false,
+                over: true
             })
             console.log('Game Over');
         }
@@ -181,14 +183,19 @@ class App extends Component {
 
     }
 
+    togglePlay = ()=>{
+        this.setState({
+            running: !this.state.running
+        })
+    }
+
     render() {
         return (
           <div className="game">
             <header className="game__header">
-              Score: {this.state.score}
-              {(this.state.running)? "pause" : "play" }
-              <img src={(this.state.running)? "./images/pause.svg" : "./images.play.svg" }></img>
-              <i class="fas fa-pause-circle"></i>
+              Score: {this.state.score} {this.state.over}
+
+              <i onClick={this.togglePlay} className={(this.state.running)? "fas fa-pause-circle" : "fas fa-play-circle" }></i>
 
             </header>
 
@@ -209,7 +216,10 @@ class App extends Component {
 
                 </svg>
             </div>
-
+            <div  className={(!this.state.over)? "game-over" : "game-over show" }>
+                <h2>GAME OVER!</h2>
+                <h3>Final Score: {this.state.score}</h3>
+            </div>
           </div>
         );
     }

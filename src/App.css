@@ -1,4 +1,6 @@
-
+:root{
+    --header-color: #00baca;
+}
 .game{
     width: 100%;
     max-width: 650px;
@@ -10,24 +12,52 @@
 }
 
 .game__header{
-    background: #00baca;
-    padding: 1rem;
-    font-size: 1.3rem;
+    background: var(--header-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .game{
+    position: relative;
+}
+
+.game-over{
+    display: none;
+    position: absolute;
+    top:100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    background: rgba(255,255,255,0.9);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px var(--header-color);
+    border: 5px solid red;
+    padding: 2rem;
+    text-align: center;
+    color: red;
 
 }
 
+.game-over.show{
+    display: block;
+}
+
 .game-stage{
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 400px;
+    border: dashed 2px var(--header-color);
 
 
 }
 .game-stage__body{
-    stroke: black;
     fill: none;
 }
 .snake__head{
