@@ -1,14 +1,14 @@
 {
-  "main.css": "/warsawjs-workshop-25-snake/static/css/main.8edba9d2.chunk.css",
-  "main.js": "/warsawjs-workshop-25-snake/static/js/main.2d881d8b.chunk.js",
-  "main.js.map": "/warsawjs-workshop-25-snake/static/js/main.2d881d8b.chunk.js.map",
+  "main.css": "/warsawjs-workshop-25-snake/static/css/main.8b62faa4.chunk.css",
+  "main.js": "/warsawjs-workshop-25-snake/static/js/main.9e8f3316.chunk.js",
+  "main.js.map": "/warsawjs-workshop-25-snake/static/js/main.9e8f3316.chunk.js.map",
   "static/js/1.68c82d53.chunk.js": "/warsawjs-workshop-25-snake/static/js/1.68c82d53.chunk.js",
   "static/js/1.68c82d53.chunk.js.map": "/warsawjs-workshop-25-snake/static/js/1.68c82d53.chunk.js.map",
   "runtime~main.js": "/warsawjs-workshop-25-snake/static/js/runtime~main.9353bc6d.js",
   "runtime~main.js.map": "/warsawjs-workshop-25-snake/static/js/runtime~main.9353bc6d.js.map",
   "static/media/logo.svg": "/warsawjs-workshop-25-snake/static/media/logo.5d5d9eef.svg",
-  "static/css/main.8edba9d2.chunk.css.map": "/warsawjs-workshop-25-snake/static/css/main.8edba9d2.chunk.css.map",
+  "static/css/main.8b62faa4.chunk.css.map": "/warsawjs-workshop-25-snake/static/css/main.8b62faa4.chunk.css.map",
   "index.html": "/warsawjs-workshop-25-snake/index.html",
-  "precache-manifest.9a517e15401dd9a8ebaaed321e17f244.js": "/warsawjs-workshop-25-snake/precache-manifest.9a517e15401dd9a8ebaaed321e17f244.js",
+  "precache-manifest.2f79ff267ce8a1129fa87d463560be2b.js": "/warsawjs-workshop-25-snake/precache-manifest.2f79ff267ce8a1129fa87d463560be2b.js",
   "service-worker.js": "/warsawjs-workshop-25-snake/service-worker.js"
 }

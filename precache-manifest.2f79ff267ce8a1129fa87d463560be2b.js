@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/warsawjs-workshop-25-snake/static/js/runtime~main.9353bc6d.js"
   },
   {
-    "revision": "2d881d8bd3988925f5ef",
-    "url": "/warsawjs-workshop-25-snake/static/js/main.2d881d8b.chunk.js"
+    "revision": "9e8f33168330be7d7bf5",
+    "url": "/warsawjs-workshop-25-snake/static/js/main.9e8f3316.chunk.js"
   },
   {
     "revision": "68c82d53f15ee7f84fc4",
     "url": "/warsawjs-workshop-25-snake/static/js/1.68c82d53.chunk.js"
   },
   {
-    "revision": "2d881d8bd3988925f5ef",
-    "url": "/warsawjs-workshop-25-snake/static/css/main.8edba9d2.chunk.css"
+    "revision": "9e8f33168330be7d7bf5",
+    "url": "/warsawjs-workshop-25-snake/static/css/main.8b62faa4.chunk.css"
   },
   {
-    "revision": "e18b3f0841094c4495e5a7915e28719c",
+    "revision": "df7d4ecc40ab050f4fcc910971508a26",
     "url": "/warsawjs-workshop-25-snake/index.html"
   }
 ];
